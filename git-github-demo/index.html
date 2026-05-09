@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Demo Quản lý mã nguồn với Git & GitHub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>Quản lý mã nguồn với Git & GitHub</h1>
+    <p>Website demo dùng cho bài báo cáo môn học</p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Giới thiệu</h2>
+      <p>
+        Git là hệ thống quản lý phiên bản giúp theo dõi sự thay đổi của mã nguồn.
+        GitHub là nền tảng lưu trữ mã nguồn trực tuyến, hỗ trợ làm việc nhóm,
+        quản lý branch, pull request và theo dõi lịch sử phát triển phần mềm.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Các lệnh Git cơ bản</h2>
+      <div class="commands" id="commandList"></div>
+    </section>
+
+    <section class="card">
+      <h2>Quy trình làm việc</h2>
+      <ol>
+        <li>Tạo repository trên GitHub.</li>
+        <li>Clone repository về máy tính.</li>
+        <li>Thêm hoặc chỉnh sửa mã nguồn.</li>
+        <li>Commit thay đổi bằng Git.</li>
+        <li>Push code lên GitHub.</li>
+        <li>Tạo branch và pull request khi làm việc nhóm.</li>
+      </ol>
+    </section>
+
+    <section class="card">
+      <h2>Demo kiểm tra kiến thức</h2>
+      <p>Nhấn nút bên dưới để hiển thị một lệnh Git ngẫu nhiên.</p>
+      <button onclick="showRandomCommand()">Hiển thị lệnh Git</button>
+      <p id="randomCommand" class="result"></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 - Bài báo cáo Git & GitHub</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

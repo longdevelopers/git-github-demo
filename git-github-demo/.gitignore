@@ -1,0 +1,10 @@
+# File hệ thống
+.DS_Store
+Thumbs.db
+
+# Thư mục cấu hình editor
+.vscode/
+.idea/
+
+# File log
+*.log
